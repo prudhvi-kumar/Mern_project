@@ -1,0 +1,49 @@
+h1{
+
+        color: white;
+      letter-spacing: 0.1em;
+        text-align: center;
+        font-style: italic;
+}
+
+body{
+        background-image: url('walpaper 2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+}
+
+div#d1{
+        border: 2px solid red;
+}
+
+form.f1{
+        color: white;
+        font-size: 20px;
+        text-shadow: 4px 4px 8px white;
+        text-align: center;
+}
+form:hover{
+        color:orange;
+        font-size: 25px;
+        text-shadow: 5px 5px 10px white;
+}
+form:active{
+        color: aqua;
+}
+input:focus{
+        color: black;
+        background:lightyellow;
+        text-align:center;
+        font-weight:bold;
+        border: lightgreen solid 5px ;
+}
+input:hover{
+        font-weight:bold;
+        background:lightblue;
+}
+select:focus{
+        background: orange;
+
+}
